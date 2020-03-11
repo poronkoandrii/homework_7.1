@@ -1,0 +1,88 @@
+.mainer {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 129px 0px 139px 0px;
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+  text-transform: uppercase;
+}
+.who {
+  font-size: 12px;
+  color: #525761;
+  font-weight: bold;
+}
+.mainer h1 {
+  font-size: 48px;
+  color: #27b4b6;
+  margin: 25px 0 21px 0;
+}
+.text {
+  font-size: 18px;
+  color: #a8a8a8;
+  line-height: 28px;
+  margin-bottom: 100px;
+}
+main .block-row {
+  display: inline-block;
+  width: 240px;
+  height: 420px;
+  margin: 0 -2px;
+  background-color: #f7f7f7;
+  padding: 56px 35px 0 35px;
+  box-sizing: border-box;
+}
+.block-row .anchor,
+.block-row .gem,
+.block-row .glasses,
+.block-row .tv {
+  width: 64px;
+  height: 64px;
+  background-image: url(/img/icons.png);
+  margin: 0 auto;
+}
+.block-row .anchor {
+  background-position: 0 0;
+}
+.block-row .gem {
+  background-position: 192px 0;
+}
+.block-row .glasses {
+  background-position: 128px 0;
+}
+.block-row .tv {
+  background-position: 64px 0;
+}
+main .block-row:hover .anchor {
+  background-position: 0 64px;
+}
+main .block-row:hover .gem {
+  background-position: 192px 64px;
+}
+main .block-row:hover .glasses {
+  background-position: 128px 64px;
+}
+main .block-row:hover .tv {
+  background-position: 64px 64px;
+}
+.block-row .caption {
+  font-size: 21px;
+  text-transform: uppercase;
+  color: #4b4b4b;
+  height: 105px;
+  box-sizing: border-box;
+  padding-top: 52px;
+}
+.block-row .web {
+  padding-top: 39px;
+}
+.block-row .discription {
+  text-transform: none;
+  color: #777777;
+}
+main .block-row:hover {
+  background-color: #0ec8cb;
+}
+main .block-row:hover .caption,
+main .block-row:hover .discription {
+  color: #fff;
+}
